@@ -1,0 +1,165 @@
+body{
+
+    background-color:#00203FFF;
+}
+
+#title{
+    
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(173,239,209,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color:#ADEFD1FF;
+  } 
+
+  .nav-color{
+      color:#ADEFD1FF;
+      opacity:0.7;
+ }
+ .nav-color:hover{
+     opacity:1;
+ }
+ .activ{
+    opacity:1;
+ }
+ .navbar-brand-color{
+     color:#ADEFD1FF;
+     font-size: 3rem;
+ }
+
+ nav{
+    font-family: 'Permanent Marker', cursive;
+ }
+
+.header{
+    position: relative;
+}
+
+
+ /* .box{
+     height:200px;
+     width:200px;
+     position:absolute;
+     background-color: seagreen;;
+ }
+ .bo{
+    height:200px;
+    width:200px;
+    position:absolute;
+    z-index: 2; 
+    top:40px;
+    left:40px;
+ }
+ .u{
+    border: solid seagreen;
+ }
+
+ .d{
+     
+     top:80px;
+     left:80px;
+ } */
+
+
+
+
+
+ /* HEADER */
+ .header{
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+ }
+ .img{
+     text-align:center;
+ }
+ .image{
+     width:20rem;
+     border-radius: 100%;
+ }
+ .head{
+    font-family: 'Architects Daughter', cursive;
+    font-size:2rem;
+    color:#ADEFD1FF;
+
+ }
+ .follow{
+     color:#ADEFD1FF;
+     font-size: 1rem;
+     font-family: 'Architects Daughter', cursive;
+font-family: 'Special Elite', cursive;
+ }
+
+
+
+
+ /* About */
+ /* .about{
+     position: relative;
+ }
+ .back{
+     background:url("https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    position: absolute;
+    height: 400px;
+    width:400px;
+    }
+.over{
+    background-color:#00203FFF;
+    opacity:0.7;
+    position: absolute;
+    height: 400px;
+    width:400px;
+}
+.tex{
+    position: absolute;
+    height: 400px;
+    width:400px;
+} */
+.f{
+    min-height:100%;
+  background:url(https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80) rgba(0, 32, 63, 0.7);
+  background-size: 100% 100%;;
+  background-blend-mode: multiply;
+}
+
+.abt{
+    color:#ADEFD1FF;
+    padding:7%;
+}
+.h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size:60px;
+    color:#ADEFD1FF
+}
+.mat{
+    font-family: 'Dancing Script', cursive;
+    font-size:25px;
+    
+}
+
+
+.im{
+   width:100%; 
+   
+}
+
+.ss{
+    min-height:100%;
+  background:url(https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=756&q=80) rgba(0, 32, 63, 0.7);
+  background-size: 100% 100%;;
+  background-blend-mode: multiply;
+}
+.bttn{
+    padding:0 5% 0;
+}
+.b{
+    border:solid black;
+    padding:5%;
+    margin:5%;
+}
+.p2{
+    font-family: 'Dancing Script', cursive;
+    font-size:20px;
+}
