@@ -274,6 +274,12 @@ font-family: 'Special Elite', cursive;
     font-size:50px;
 }
 
+@media screen and (max-width: 991px){
+    .h1{
+        font-size:30px;
+    }
+}
+
 
 /* HEART IN FOOTER  */
 .heart {
