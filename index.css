@@ -69,11 +69,12 @@ body{
 
  /* HEADER */
  .header{
-     padding-top: 5rem;
-     padding-bottom: 5rem;
+     padding-top: 7rem;
+     padding-bottom: 7rem;
  }
  .img{
      text-align:center;
+     
  }
  .image{
      width:20rem;
@@ -131,7 +132,8 @@ font-family: 'Special Elite', cursive;
 .h1{
     font-family: 'Permanent Marker', cursive;
     font-size:60px;
-    color:#ADEFD1FF
+    color:#ADEFD1FF;
+    padding-top:4%;
 }
 .mat{
     font-family: 'Dancing Script', cursive;
@@ -158,8 +160,132 @@ font-family: 'Special Elite', cursive;
     border:solid black;
     padding:5%;
     margin:5%;
+    
 }
 .p2{
-    font-family: 'Dancing Script', cursive;
+    font-family: font-family: 'EB Garamond', serif;
     font-size:20px;
 }
+.pl{
+    padding:1px;
+   
+    
+}
+
+.checked {
+    color:#ADEFD1FF;
+}
+.fa-star-half-o{
+    color:#ADEFD1FF;
+    border-color: #00203FFF;
+}
+
+
+.a{
+    margin-bottom:10px;
+}
+
+.i{
+    width:60%;
+}
+
+.lin{
+    color:white;
+    text-decoration: none;
+}
+.lin:hover{
+    color:white;
+    text-decoration: none;
+}
+.lin:visited{
+    color:white;
+    text-decoration: none;
+
+}
+.lin:active{
+    color:white;
+    text-decoration: none;
+}
+
+#cerp{
+    color:#ADEFD1FF;
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.b1{
+    
+    border:solid black;
+    padding:5%;
+    margin:5%;
+    padding-top:2%;
+    margin-bottom:1%;
+    margin-top:2%;
+    padding-bottom:0;
+}
+
+.cb{
+    
+        min-height:100%;
+      background:url(https://images.unsplash.com/photo-1527345931282-806d3b11967f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80) rgba(0, 32, 63, 0.7);
+      background-size: 100% 100%;;
+      background-blend-mode: multiply;
+      padding-bottom:10px;
+    
+}
+.btnn{
+    padding-top:0;
+    padding-bottom:0;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+.footer{
+    background-color:rgba(173,239,209,0.5);
+    
+    padding-bottom:1%;text-align:center;width:100%;
+
+}
+.fdata{
+    text-align:center;
+    color:#00203FFF;
+    font-family: 'Spectral', serif;
+    font-size:1.5rem;
+
+}
+
+.ftt{
+    padding-top:20%;
+  
+}
+@media screen and (max-width: 991px)
+{
+    .ftt{
+        padding-top:2%;
+    }
+}
+.fi{
+  font-size:36px;  
+}
+.fi:hover{
+    font-size:50px;
+}
+
+
+/* HEART IN FOOTER  */
+.heart {
+    fill: red;
+    position: relative;
+    top: 5px;
+    width: 25px;
+    animation: pulse 1s ease infinite;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+    100% { transform: scale(1); }
+  }
