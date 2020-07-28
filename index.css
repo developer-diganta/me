@@ -243,6 +243,28 @@ font-family: 'Special Elite', cursive;
 }
 
 
+
+.ul{
+    list-style-type:none;
+}
+.li{
+    padding-bottom:5px;
+}
+.ihid{
+    display:none;
+}
+.hd:hover + ihid{
+    display:block;
+}
+
+.lb{
+    min-height:100%;
+    background:url(lang.png);
+    background-size: 100% 100%;;
+    background-blend-mode: multiply;
+}
+
+
 .footer{
     background-color:rgba(173,239,209,0.5);
     
@@ -269,6 +291,7 @@ font-family: 'Special Elite', cursive;
 }
 .fi{
   font-size:36px;  
+  transition:0.5s;
 }
 .fi:hover{
     font-size:50px;
@@ -295,3 +318,33 @@ font-family: 'Special Elite', cursive;
     50% { transform: scale(1.3); }
     100% { transform: scale(1); }
   }
+
+
+
+
+
+  /* .hoverable {
+    cursor:default;
+    color:#000;
+    text-decoration:none;
+    transition:5s;
+  }
+  .hoverable .hover {
+    display:none;
+    transition:5s;
+   
+  }
+  .hoverable:hover .normal {
+    display:none;
+    transition:5s;
+  }
+  .hoverable:hover .hover {
+    transition:5s;
+    display:inline;  /* CHANGE IF FOR BLOCK ELEMENTS */
+  } */
+
+
+
+
+
+  
