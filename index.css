@@ -38,7 +38,9 @@ body{
     position: relative;
 }
 
-
+/* .first{
+  display: none;
+} */
  /* .box{
      height:200px;
      width:200px;
@@ -207,7 +209,7 @@ font-family: 'Special Elite', cursive;
     text-decoration: none;
 }
 
-#cerp{
+.cerp{
     color:#ADEFD1FF;
     text-align:center;
     font-family: 'Dancing Script', cursive;
@@ -346,3 +348,42 @@ font-family: 'Special Elite', cursive;
   background-color:#00203FFF;
   color:#ADEFD1FF;
 }
+
+/* .center{
+
+  margin:0;
+  padding:0;
+} */
+iframe{
+
+    display:block;
+
+  margin:auto;
+
+  width: 72vw;
+  height: 60vh;
+}
+.project_back{
+  min-height: 100%;
+  background:url(https://images.unsplash.com/photo-1534609146522-5d8de8a10058?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) rgba(0, 32, 63, 0.7);
+  background-size: 100% 100%;;
+  background-blend-mode: multiply;
+  padding-bottom: 10%;
+}
+
+.select{
+  cursor: pointer;
+}
+.cont{
+display:none;
+}
+.cont2{
+display:block;}
+
+.onn{
+
+}
+
+#idd{
+
+  }
