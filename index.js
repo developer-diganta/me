@@ -33,3 +33,27 @@ $('.first').one('inview', function (event, visible) {
 //     $(".first").fadeOut(500);
 //   }
 // });
+
+$.fn.isInViewport = function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = elementTop + $(this).outerHeight();
+
+    var viewportTop = $(window).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+
+    return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
+if ($('.first').isInViewport()) {
+  $(".first").css('opacity', '0').fadeTo(2000,1);}
+else{
+  $(".first").css('opacity', '1');
+}
+
+// $(window).on('resize scroll', function() {
+//     if ($('#title').isInViewport()) {
+//       $(".first").css('opacity', '0').fadeTo('slow', 1);  //alert("hi");// do something
+//     } else {
+//         // do something else
+//     }
+// });

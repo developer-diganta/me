@@ -4,7 +4,7 @@ body{
 }
 
 #title{
-
+ padding-bottom: 5%;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -38,9 +38,9 @@ body{
     position: relative;
 }
 
-/* .first{
-  display: none;
-} */
+.first{
+    opacity:0;
+}
  /* .box{
      height:200px;
      width:200px;
@@ -387,3 +387,7 @@ display:block;}
 #idd{
 
   }
+
+#sec{
+  left: 100px;
+}
